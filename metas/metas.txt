@@ -1,0 +1,15 @@
+Adiconar aqui metas de funcionalidades para o site.
+
+/**     META    **************************/  ok - nOk */
+
+                    LAYOUT
+
+1- reponsividade
+2- Cores por palleta triangulo das cores
+3- designer minimalista
+
+                    SISTEMA
+
+1- sistema de login
+2- sistema de rastreio IP
+3- sistema de contagem visitas
