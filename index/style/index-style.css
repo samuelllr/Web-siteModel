@@ -1,1 +1,40 @@
 @charset "UTF-8";
+
+/* VARIAVEIS */
+
+:root{
+    
+}
+
+/* FORMATAÇÃO DE SECTION HEADER FOOTER */
+
+header{
+
+    position: absolute;
+    top:0px;left:0px;
+    background-color: aqua;
+    width:100%;
+    height:100%;
+
+}
+
+section{
+
+    position: absolute;
+    left:0px;
+    background-color: rebeccapurple;
+    width: 100%;
+
+    height:100%;
+}
+
+footer{
+
+    position: absolute;
+    top:200%;left:0px;
+    background-color:blue;
+    width: 100%;
+
+    height:800px;
+
+}
