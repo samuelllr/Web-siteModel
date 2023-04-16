@@ -13,3 +13,7 @@ Adiconar aqui metas de funcionalidades para o site.
 1- sistema de login
 2- sistema de rastreio IP
 3- sistema de contagem visitas
+
+site escolhido de base :
+
+https://www.behance.net/gallery/167891057/BPX-TRADE-Web-site-Social-Media

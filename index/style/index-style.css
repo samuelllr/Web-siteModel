@@ -3,7 +3,7 @@
 /* VARIAVEIS */
 
 :root{
-    --height-bar-superior-header:80px;
+    --height-bar-superior-header:50px;
 }
 
 /*FORMATAÇÃO DA BARRA SCROLL */
@@ -62,16 +62,16 @@ header #bar-header #logo-marca{
     position: relative;
     top:0px;left:7%;
     width:200px;
-    height:80px;
+    height:var(--height-bar-superior-header);
     background-color:darkgreen;
 }
 
 header #bar-header #menu-header{
     position: relative;
-    top:-80px;left:100%;
+    top:-50px;left:100%;
     margin-left: -790px;
     width:700px;
-    height:80px;
+    height:var(--height-bar-superior-header);
     background-color:blueviolet;
 }
 
@@ -90,19 +90,12 @@ header #title-alfa #title-site{
     width:90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: -200px;
-    height: 400px;
+    margin-top: -250px;
+    height: 500px;
     background-color: greenyellow;
 }
 
-header #bar-menu-header{
-    position: absolute; 
-    /*Formatação top em JS*/
-    left:0px;
-    width:100%;
-    height:150px;
-    background-color:gold;
-}
+
 
 /* FORMATAÇÃO ELEMENTOS FOOTER */
 
