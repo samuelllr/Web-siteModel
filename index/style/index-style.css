@@ -3,7 +3,7 @@
 /* VARIAVEIS */
 
 :root{
-    --height-bar-superior-header:50px;
+    --height-bar-superior-header:70px;
 }
 
 /*FORMATAÇÃO DA BARRA SCROLL */
@@ -56,30 +56,46 @@ header #bar-header{
     width:100%;
     height:var(--height-bar-superior-header);
     background-color: black;
+}header #bar-header img{
+    width:30px;
+    height: 30px;
+
+    position: absolute;
+    top:20px;
+    left:100%;
+    margin-left: -100px;
+    cursor:pointer;
 }
 header #bar-header #logo-marca{
     position: absolute;
-    top:0px;left:7%;
+    top:0px;left:14%;
     width:200px;
     height:var(--height-bar-superior-header);
-    background-color:black;
    
 }header #bar-header #logo-marca .title-header{
     color: white;
     font-family: sans-serif;
     text-align: center;
-    font-size: 20pt;
-    margin-top: 10px;
+    font-size: 25pt;
+    margin-top: 25px;
 }
 
 
 header #bar-header #menu-header{
     position: absolute;
     top:0px;left:100%;
-    margin-left: -790px;
-    width:700px;
+    margin-left: -690px;
+    width:500px;
     height:var(--height-bar-superior-header);
-    background-color:blueviolet;
+}header #bar-header #menu-header a{
+    display: inline-block;
+    color:#fff;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 10pt;
+    text-decoration: none;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 
 header #title-alfa{
@@ -106,20 +122,19 @@ header #title-alfa #menu-title #slot1{
     top:0px;left:0px;
     width:100%;
     height:150px;
-    background-color: rgba(0,0,0,.2);
     border-radius: 20px;
 }header #title-alfa #menu-title #slot1 .title-slot1{
     text-align: left;
-    margin: 5px;
-    font-size: 30pt;
+    margin: 10px;
+    font-size: 35pt;
     color: white;
     font-weight: 700;
     font-family: sans-serif;
 }header #title-alfa #menu-title #slot1 .sub-slot1{
-    color: white;
+    color: orange;
     font-family: sans-serif;
-    margin:5px;
-    font-size: 12pt;
+    margin:10px;
+    font-size: 20pt;
 }
 
 header #title-alfa #menu-title #slot2{
@@ -136,7 +151,7 @@ header #title-alfa #menu-title #slot3{
     top:170px;
     width:150px;
     height:150px;
-    background-color: orange;
+    background-color: #ffbc40;
     margin-left:35%;
 }
 
@@ -145,7 +160,7 @@ header #title-alfa #menu-title #slot4{
     top:335px;
     width:150px;
     height:150px;
-    background-color:orange;
+    background-color:#ffbc40;
     margin-left:20%;
 }
 
