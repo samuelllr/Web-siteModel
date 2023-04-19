@@ -139,7 +139,14 @@ header #title-alfa #menu-title #slot5{
     margin-left:50%;
 }
 
+/* FORMATAÇÃO ELEMENTOS SECTION */
 
+section #sobre-empresa{
+    position: absolute;
+    top:0px;left:0px;
+    width:100%;height:300px;
+    background-color: cornflowerblue;
+}
 
 /* FORMATAÇÃO ELEMENTOS FOOTER */
 
