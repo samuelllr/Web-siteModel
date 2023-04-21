@@ -12,3 +12,8 @@ const baseRule = path.join(__dirname, "template");
 app.get("/", (req, res) => {
     res.sendFile(`${baseRule}/index.html`);
 });
+
+app.listen(3000, () => {
+
+    
+})
