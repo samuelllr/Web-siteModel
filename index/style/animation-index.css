@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*ARQUIVO DE ANIMAÇÕES DE LAYOU INDEX*/
+
+/*HEADER*/
+
+header #bar-header #menu-header p:hover{
+    transition: 0.5s;
+    font-weight: 500;
+    color:orange;
+}
+
+header #bar-header img:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+header #title-alfa #menu-title .slot:hover{
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px #000;
+    transform: scale(1.1);
+}

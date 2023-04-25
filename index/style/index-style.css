@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+}
+
 /* VARIAVEIS */
 
 :root{
@@ -65,6 +72,8 @@ header #bar-header{
     left:100%;
     margin-left: -100px;
     cursor:pointer;
+
+    transition: 0.5s;
 }
 header #bar-header #logo-marca{
     position: absolute;
@@ -74,10 +83,10 @@ header #bar-header #logo-marca{
    
 }header #bar-header #logo-marca .title-header{
     color: white;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     text-align: center;
-    font-size: 25pt;
-    margin-top: 25px;
+    font-size: 30pt;
+    margin-top: 10px;
 }
 
 
@@ -91,11 +100,13 @@ header #bar-header #menu-header{
     display: inline-block;
     color:#fff;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 10pt;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     cursor: pointer;
+
+    transition: 0.5s;
 }
 
 header #title-alfa{
@@ -129,12 +140,12 @@ header #title-alfa #menu-title #slot1{
     font-size: 35pt;
     color: white;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
 }header #title-alfa #menu-title #slot1 .sub-slot1{
     color: orange;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin:10px;
-    font-size: 20pt;
+    font-size: 17pt;
 }
 
 header #title-alfa #menu-title #slot2{
@@ -173,7 +184,11 @@ header #title-alfa #menu-title #slot5{
     margin-left:50%;
 }
 
-header #title-alfa #menu-title .slot{ cursor: pointer }
+header #title-alfa #menu-title .slot{ 
+    transition: 0.5s;
+    border-radius: 2px;
+    padding-right: 5px;
+}
 
 header #title-alfa #menu-title .slot .text-slot{
      position: absolute;
@@ -186,7 +201,7 @@ header #title-alfa #menu-title .slot .text-slot{
 header #title-alfa #menu-title .slot .text-slot p{
     margin:0px;
     margin-left: 10px;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     color:white;
     font-weight: 400;
     font-size: 11pt;
@@ -196,13 +211,13 @@ header #title-alfa #menu-title .slot .icon-slot{
     position: absolute;
     top:20px;
     left:10px;
-    width:60px;
-    height:60px;
+    width:55px;
+    height:55px;
 }
 
 header #title-alfa #menu-title .slot .icon-slot img{
-    width:60px;
-    height:60px;
+    width:55px;
+    height:55px;
 }
 
 header #title-alfa #capa{
