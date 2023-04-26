@@ -17,3 +17,11 @@ Adiconar aqui metas de funcionalidades para o site.
 site escolhido de base :
 
 https://www.behance.net/gallery/167891057/BPX-TRADE-Web-site-Social-Media
+
+
+contate 
+
+- nome da pessoa
+- nome da empresa
+- estado
+- e-mail
