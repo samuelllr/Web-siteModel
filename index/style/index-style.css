@@ -11,6 +11,9 @@
 
 :root{
     --height-bar-superior-header:70px;
+    --color1 :#fefefe;
+    --color2 :#A020F0;
+    --color3 :#BA55D3;
 }
 
 /*FORMATAÇÃO DA BARRA SCROLL */
@@ -29,7 +32,6 @@ header{
 
     position: absolute;
     top:0px;left:0px;
-    background-color: black;
     width:100%;
     height:100%;
 }
@@ -61,7 +63,8 @@ header #bar-header{
     top:0px;left:0px;
     width:100%;
     height:var(--height-bar-superior-header);
-    background-color: black;
+    background-image: linear-gradient(45deg , var(--color1) 45%,var(--color2) 35%);
+    border-radius: 0px 0px 20% 0%;
 }header #bar-header img{
     width:30px;
     height: 30px;
@@ -81,7 +84,7 @@ header #bar-header #logo-marca{
     height:var(--height-bar-superior-header);
    
 }header #bar-header #logo-marca .title-header{
-    color: white;
+    color: black;
     font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 30pt;
@@ -97,13 +100,14 @@ header #bar-header #menu-header{
     height:var(--height-bar-superior-header);
 }header #bar-header #menu-header a{
     display: inline-block;
-    color:#fff;
+    color:white;
     margin-top: 20px;
     margin-left: 20px;
     font-size: 10pt;
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
     cursor: pointer;
+    font-weight: 500;
 
     transition: 0.5s;
 }
@@ -136,12 +140,12 @@ header #title-alfa #menu-title #slot1{
 }header #title-alfa #menu-title #slot1 .title-slot1{
     text-align: left;
     margin: 10px;
-    font-size: 35pt;
-    color: white;
-    font-weight: 700;
+    font-size: 25pt;
+    color: black;
+    font-weight: 500;
     font-family: 'Kanit', sans-serif;
 }header #title-alfa #menu-title #slot1 .sub-slot1{
-    color: orange;
+    color: var(--color2);
     font-family: 'Kanit', sans-serif;
     margin:10px;
     font-size: 17pt;
@@ -152,7 +156,7 @@ header #title-alfa #menu-title #slot2{
     top:170px;
     width:150px;
     height:150px;
-    background-color: orange;
+    background-color: var(--color2);
     margin-left:5%;
 }
 
@@ -161,7 +165,7 @@ header #title-alfa #menu-title #slot3{
     top:170px;
     width:150px;
     height:150px;
-    background-color: #ffbc40;
+    background-color: var(--color3);
     margin-left:35%;
 }
 
@@ -170,7 +174,7 @@ header #title-alfa #menu-title #slot4{
     top:335px;
     width:150px;
     height:150px;
-    background-color:#ffbc40;
+    background-color:var(--color3);
     margin-left:20%;
 }
 
@@ -179,13 +183,13 @@ header #title-alfa #menu-title #slot5{
     top:335px;
     width:150px;
     height:150px;
-    background-color:orange;
+    background-color:var(--color2);
     margin-left:50%;
 }
 
 header #title-alfa #menu-title .slot{ 
     transition: 0.5s;
-    border-radius: 2px;
+    border-radius: 30px 5px 30px 5px ;
     padding-right: 5px;
 }
 
@@ -212,6 +216,7 @@ header #title-alfa #menu-title .slot .icon-slot{
     left:10px;
     width:55px;
     height:55px;
+    filter: invert(100%)
 }
 
 header #title-alfa #menu-title .slot .icon-slot img{
