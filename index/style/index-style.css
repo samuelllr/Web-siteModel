@@ -14,6 +14,7 @@
     --color1 :#fefefe;
     --color2 :#A020F0;
     --color3 :#BA55D3;
+    --color4 :#eeeeee;
 }
 
 /*FORMATAÇÃO DA BARRA SCROLL */
@@ -260,8 +261,10 @@ section #sobre-empresa .wallpaper-sobre{
     position: absolute;
     top:0px;left:0px;
     width:100%;
-    height: 600px;
+    height: 500px;
     z-index: 1;
+    background-image: linear-gradient(90deg, var(--color4), var(--color1));
+    border-radius: 0px 0px 50% 0px;
 }
 
 section #sobre-empresa .text-sobre{
@@ -269,17 +272,27 @@ section #sobre-empresa .text-sobre{
     left:10%;
     top:5%;
     width:80%;
-    height: 500px;
+    height: 400px;
     margin-right: 10%;
     margin-bottom: 5%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(200,200,200,.3);
+    border-radius: 0px 0px 50% 0px;
+    padding: 10px;
+    box-sizing: border-box;
     z-index: 2;
+    box-shadow: 0px 0px 10px #fff;
 }
 
 section #sobre-empresa .text-sobre h1{
     text-align: center;
-    color:#fff;
+    color:var(--color2);
     font-size:20pt;
+}
+
+section #sobre-empresa .text-sobre p{
+    text-align: center;
+    color:black;
+    font-size: 19pt;
 }
 
 /* FORMATAÇÃO ELEMENTOS FOOTER */
