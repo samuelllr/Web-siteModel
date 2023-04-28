@@ -1,5 +1,3 @@
-function start(){
-
     // FORMATAÇÃO CSS
 
     // organização de section header footer ( posicionamento )
@@ -28,4 +26,20 @@ function start(){
     attPolySvg.value = "0,0,"+ XPoly + "," + YPoly + "," + XPoly + ",0,0,0";
     polySvg.setAttributeNode(attPolySvg);
 
-}
+    // Whatsapp tela active 
+
+    var janelaWhatsapp = document.getElementById("whatsapp-contato");
+
+    function activeWhatsappTela( comand ){
+
+        janelaWhatsapp.style.transition = "0.5s";
+
+        switch ( comand ){
+            case 0: //abrir
+                janelaWhatsapp.style.display = "inline";
+            break;
+            case 1: //fechar
+                janelaWhatsapp.style.display = "none";
+            break;
+        }
+    };

@@ -59,6 +59,39 @@ footer{
 
 /* FORMATAÇÃO ELEMENTOS HEADER */
 
+header #title-alfa #whatsapp-contato{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left: -200px;
+    margin-top: -250px;;
+    width:400px;
+    height:500px;
+    background-color: var(--color1);
+    border:2px solid var(--color3);
+    border-radius:10px;
+    display:none;
+    z-index:50;
+    transition: 0.5s;
+}
+
+header #title-alfa #whatsapp-contato .w-x{
+    position: absolute;
+    width:40px;
+    height:40px;
+    top:0px;
+    left:100%;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+header #title-alfa #whatsapp-contato .w-x p{
+    color: var(--color2);
+    text-align: center;
+    margin: 0px;
+    font-size: 20pt;
+}
+
 header #bar-header{
     position: relative;
     top:0px;left:0px;

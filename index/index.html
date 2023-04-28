@@ -2,16 +2,15 @@
 <html lang="pt-br">
 <head>
 
-    <title>Site</title>
+    <title>SM elétrica</title>
     <meta charset="UTF-8">
 
     <!--LINKAR AQUIVOS-->
-    <script src="script/index-script.js"></script>
     <link rel="stylesheet" type="text/css" href="style/index-style.css"/> 
     <link rel="stylesheet" type="text/css" href="style/animation-index.css"/> 
 
 </head>
-<body  onload="start()">
+<body>
     <header>
 
         
@@ -22,14 +21,17 @@
                 <p class="title-header">SM Elétrica</p>
             </div>
             <div id="menu-header">
-                <a href=""><p>Quem somos</p></a>
+                <a href="#sobre-empresa"><p>Quem somos</p></a>
                 <a href=""><p>tipos de operação</p></a>
                 <a href=""><p>Setores de atuação</p></a>
-                <a href=""><p>Contrate</p></a>
+                <a href="pags/contrate.html"><p>Contrate</p></a>
             </div>
-            <a href=""><img src="imgs/whatsapp.png"/></a>
+            <img onclick="activeWhatsappTela(0)" src="imgs/whatsapp.png"/>
         </div>
         <div id="title-alfa">
+            <div id="whatsapp-contato">
+                <div class="w-x" onclick="activeWhatsappTela(1)"><p>X</p></div>
+            </div>
             <div id="capa">
                 <img src="https://patrocinados.estadao.com.br/cpfl/combate-ao-desperdicio-de-energia-eletrica/assets/img/article.jpg">
             </div>
@@ -86,5 +88,9 @@
             
         </div>
     </footer>
+
+    <!--LINKAR AQUIVOS SCRIPT-->
+    <script src="script/index-script.js"></script>
+    
 </body>    
 </html>
