@@ -1,14 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <title>Contrate</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>contrate</title>
+</head>
+<body>
+    <header>
+        <h2>preencha esse formulario para nós entrar em contao</h2>
+    </header>
+    <section>
+        <div class="for-conteiner">
+            <form id="form">
+                <div class="for-control">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome">
+                </div>
+                <div class="for-control">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="for-control">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                </div>
+                <div class="for-control">
+                    <label for="confipassword">Confirme sua senha:</label>
+                    <input type="password" name="confipassword" id="confipassword" placeholder="Confirme sua senha">
+                </div>
+                <div class="action">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer></footer>
 
-        <header></header>
-        <section>BLABLA</section>
-        <footer></footer>
-
-    </body>
+    <script src="../script/contrate.js"></script>
+</body>
 </html>
