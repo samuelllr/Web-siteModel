@@ -6,14 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>contrate</title>
+
+    <!--LINKAR AQUIVOS-->
+    <link rel="stylesheet" type="text/css" href="../style/index-style.css"/> 
+    <link rel="stylesheet" type="text/css" href="../style/animation-index.css"/> 
+    <link rel="stylesheet" type="text/css" href="../style/contrate.css"/> 
+
 </head>
 <body>
     <header>
-        <h2>preencha esse formulario para nós entrar em contao</h2>
+        <div id="bar-header">
+            <div id="logo-marca">
+                <p class="title-header">SM Elétrica</p>
+            </div>
+            <div id="menu-header">
+                <a href="../index.html#sobre-empresa"><p>Quem somos</p></a>
+                <a href=""><p>tipos de operação</p></a>
+                <a href=""><p>Setores de atuação</p></a>
+                <a href="#" class="contrate-title" style="cursor: not-allowed"><p>Contrate</p></a>
+            </div>
+            <img onclick="activeWhatsappTela(0)" src="../imgs/whatsapp.png"/>
+        </div>
+        <div id="whatsapp-contato">
+            <div class="w-x" onclick="activeWhatsappTela(1)"><p>X</p></div>
+        </div>
     </header>
     <section>
         <div class="for-conteiner">
             <form id="form">
+                <h1>Preencha o formúlario a baixo.</h1>
                 <div class="for-control">
                     <label for="name">Nome:</label>
                     <input type="text" name="name" id="name" placeholder="Digite seu nome">
@@ -36,8 +57,30 @@
             </form>
         </div>
     </section>
-    <footer></footer>
+    <footer>
 
+    </footer>
+
+    <script>
+        var janelaWhatsapp = document.getElementById("whatsapp-contato");
+
+        function activeWhatsappTela( comand ){
+
+            janelaWhatsapp.style.transition = "0.5s";
+
+            switch ( comand ){
+                case 0: //abrir
+                    janelaWhatsapp.style.display = "inline";
+                break;
+                case 1: //fechar
+                    janelaWhatsapp.style.display = "none";
+                break;
+            }
+        };
+    </script>
+
+    <!--LINKAR AQUIVOS SCRIPT-->
     <script src="../script/contrate.js"></script>
+
 </body>
 </html>

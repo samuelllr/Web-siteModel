@@ -43,7 +43,7 @@ section{
     left:0px;
     width: 100%;
 
-    height:1000px;
+    height:2000px;
 }
 
 footer{
@@ -59,7 +59,7 @@ footer{
 
 /* FORMATAÇÃO ELEMENTOS HEADER */
 
-header #title-alfa #whatsapp-contato{
+header #whatsapp-contato{
     position: fixed;
     top:50%;
     left:50%;
@@ -75,7 +75,7 @@ header #title-alfa #whatsapp-contato{
     transition: 0.5s;
 }
 
-header #title-alfa #whatsapp-contato .w-x{
+header #whatsapp-contato .w-x{
     position: absolute;
     width:40px;
     height:40px;
@@ -85,7 +85,7 @@ header #title-alfa #whatsapp-contato .w-x{
     cursor: pointer;
 }
 
-header #title-alfa #whatsapp-contato .w-x p{
+header #whatsapp-contato .w-x p{
     color: var(--color2);
     text-align: center;
     margin: 0px;
@@ -287,7 +287,7 @@ header #title-alfa .div-svg svg{
 section #sobre-empresa{
     position: absolute;
     top:0px;left:0px;
-    width:100%;height:100%;
+    width:100%;height:550px;
 }
 
 section #sobre-empresa .wallpaper-sobre{
@@ -326,6 +326,24 @@ section #sobre-empresa .text-sobre p{
     text-align: center;
     color:black;
     font-size: 19pt;
+}
+
+section #tipos-operacao{
+    position:absolute;
+    left:0px;
+    top:550px;
+    width:100%;
+    height:600px;
+    background-color: red;
+}
+
+section #setores-atuacao{
+    position:absolute;
+    left:0px;
+    top:1200px;
+    width:100%;
+    height:600px;
+    background-color: green;
 }
 
 /* FORMATAÇÃO ELEMENTOS FOOTER */
