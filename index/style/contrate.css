@@ -9,7 +9,8 @@
 
 
 section{
-    background-color: #BA55D3;
+    background-image:url("../imgs/empresa.jpg");
+    background-size: cover;
     width: 100%;
 }
 
@@ -71,13 +72,17 @@ section{
     width: 200px;
 }
 
-.input-filed input{
+.input-filed input, textarea{
     border:none;
     font-size: 15px;
     width: 200px;
 }
 
 .input-filed input:focus{
+    outline: none;
+}
+
+.input-filed textarea:focus{
     outline: none;
 }
 
