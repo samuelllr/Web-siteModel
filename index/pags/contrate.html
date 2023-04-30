@@ -9,11 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>contrate</title>
 
-    <!--LINKAR AQUIVOS-->
-    <link rel="stylesheet" type="text/css" href="../style/index-style.css"/> 
-    <link rel="stylesheet" type="text/css" href="../style/animation-index.css"/> 
+    <!--LINKAR AQUIVOS--> 
     <link rel="stylesheet" type="text/css" href="../style/contrate.css"/> 
-
+    <!-- <link rel="stylesheet" type="text/css" href="../style/index-style.css"/> 
+    <link rel="stylesheet" type="text/css" href="../style/animation-index.css"/> -->
+   
 </head>
 <body>
     <header>
@@ -22,8 +22,12 @@
     <section>
         <div class="for-conteiner">
             <div class="information">
-                <h3>Opa que bom ver você por aqui</h3>
-                <p>Acredito que você viu algumas informações da gente que te trouxe até aqui, então preencha o formulário essa vai ser uma maneira de sabermos que você quer nos contratar e deixe seu comentario sobre oque achou da gente.</p>
+                <div class="title">
+                    <h1>Opa!!</h1>
+                    <h2>Que bom ver você por aqui!!</h2>
+                </div>
+                
+                <p>Acredito que você viu algumas informações da gente que te trouxe até aqui, então preencha o formulário essa vai ser uma maneira de sabermos que você quer nos contratar e deixe seu comentario sobre oque achou da empresa.</p>
             </div>
             <form id="form">
                 <h2>Preencha</h2>
@@ -42,6 +46,13 @@
                     </div>
                 </div>
                 <div class="for-control">
+                    <label for="contato">contato:</label>
+                    <div class="input-filed">
+                        <i class="fa-sharp fa-solid fa-envelope"></i>
+                        <input type="number" name="contato" id="contato" placeholder="Digite seu contato">
+                    </div>
+                </div>
+                <div class="for-control">
                     <label for="password">Menssagem:</label>
                     <div class="input-filed">
                         <i class="fa-sharp fa-solid fa-clipboard"></i>
@@ -55,7 +66,9 @@
         </div>
     </section>
     <footer>
-
+        <div class="footer-information">
+            <h3>numero de contato</h3>
+        </div>
     </footer>
 
     <script>
