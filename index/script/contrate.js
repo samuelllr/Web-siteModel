@@ -1,8 +1,8 @@
 const form = document.getElementById("form");
 const nome = document.getElementById("name");
 const email = document.getElementById("email");
-const password = document.getElementById("password");
-const confipassword = document.getElementById("confipassword");
+const contato = document.getElementById("contato");
+const menssagem = document.getElementById("menssagem");
 
 //Instalação do axios
 console.log(axios);
@@ -13,24 +13,24 @@ form.addEventListener("submit", (e) => {
 
     const registroName = nome.value;
     const registroEmai = email.value;
-    const registroPassword = password.value;
-    const registroConfipassword = confipassword.value;
+    const registroContato= contato.value;
+    const registroMenssagem = menssagem.value;
 
-    if(registroName && registroEmai && registroPassword && registroConfipassword){
-        envioBack(registroName, registroEmai, registroPassword, registroConfipassword);
+    if(registroName && registroEmai && registroContato && registroMenssagem){
+        envioBack(registroName, registroEmai, registroContato, registroMenssagem);
     }
 
-    console.log(registroName, registroEmai, registroPassword, registroConfipassword);
+    console.log(registroName, registroEmai, registroContato, registroMenssagem);
 });
 
 //Fazendo o envio para o backend
-const envioBack = (name, email, password, confipassword) => {
+const envioBack = (name, email, contato, menssagem) => {
 
     const dados = {
         name,
         email,
-        password,
-        confipassword,
+        contato,
+        menssagem,
     }
 
     axios.post("http://localhost:3000/contato", dados).then((res) => console.log(res)).catch((err) => {

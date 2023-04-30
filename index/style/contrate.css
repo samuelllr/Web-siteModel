@@ -23,7 +23,7 @@ section{
     justify-content: center;
 }
 
-/* formação */
+/* Informação */
 .information{
     width:450px;
     height: 555px;
@@ -33,17 +33,20 @@ section{
     color:#fff;
     display: flex;
     flex-direction: column;
-    gap:4rem;
+    gap:2.5rem;
     text-align: center;
 }
 
 .title{
+    max-width:450px;
     text-align: center;
     margin-top: 10px;;
 }
 .information p{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+
+/* Formulario */
 
 #form{
     background-color: #FFF;

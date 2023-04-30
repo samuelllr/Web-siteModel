@@ -22,10 +22,10 @@ app.get("/", (req, res) => {
 app.post("/contato", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
-    const password = req.body.password;
-    const confipassword = req.body.confipassword;
+    const contato = req.body.contato;
+    const menssagem = req.body.menssagem;
 
-    console.log(name, email, password, confipassword );
+    console.log(name, email, contato, menssagem);
 });
 
 //Método de conexão com o banco de dados
