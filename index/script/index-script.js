@@ -43,3 +43,26 @@
             break;
         }
     };
+
+    // WALPAPER ANIMATED
+
+    var wall = document.getElementById("wallpaper");
+    var wallSelect = 0;
+    var wallpaperArray = [  "capa1.jpg",
+                            "capa2.jpg",
+                            "capa3.jpg",
+                            "capa4.jpg",
+                            "capa5.jpg",
+                            "capa6.jpg",
+                            "capa7.jpg",
+                            "capa8.jpg",
+                        ];
+
+    function animatedWall(){
+        wall.setAttribute("src", 'imgs/'+wallpaperArray[wallSelect]);
+        wallSelect++;
+        if( wallSelect > 7 ){ wallSelect=0; }
+    }
+
+    setInterval( "animatedWall()" , 10000 );
+    animatedWall();
