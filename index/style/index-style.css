@@ -42,7 +42,7 @@ section{
     position: absolute;
     left:0px;
     width: 100%;
-    height:2000px;
+    height:2300px;
 }
 
 footer{
@@ -50,8 +50,8 @@ footer{
     position: absolute;
     top:200%;left:0px;
     width: 100%;
-
     height:600px;
+    background-color: var(--color4);
 }
 
 /* FORMATAÇÃO ELEMENTOS HEADER */
@@ -322,12 +322,42 @@ section #tipos-operacao{
     height:600px;
 }
 
+section #tipos-operacao h1{
+    margin-left: 80px;
+    color:var(--color2);
+}
+
 section #setores-atuacao{
     position:absolute;
     left:0px;
     top:1200px;
     width:100%;
-    height:600px;
+    height:1200px;
+}section #setores-atuacao h1{
+    margin-left: 80px;
+    color:var(--color2);
+}
+
+section #setores-atuacao .img-setores1{
+    position: relative;
+    left:80px;
+    width:500px;
+    height:300px;
+}section #setores-atuacao .img-setores1 img{
+    width:500px;
+    height:300px;
+}
+section #setores-atuacao .text-atuacao{
+    position:absolute;
+    top:100px;
+    left:50%;
+    width:45%;
+    height: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+section #setores-atuacao .text-atuacao p{
+    font-size: 12pt;
 }
 
 /* FORMATAÇÃO ELEMENTOS FOOTER */
@@ -338,7 +368,7 @@ footer #bar-footer{
     margin-top:-50px;
     width:100%;
     height:50px;
-    background-color: var(--color4);
+    background-color: var(--color1);
     padding-top: 1px;
 }
 footer #bar-footer p{
@@ -376,7 +406,6 @@ footer #footer-contatos{
     left:50%;
     width: 400px;
     height:400px;
-    background-color: var(--color1);
     border-left: 5px solid var(--color3);
     margin-left: 10px;
     padding-top: 140px;
